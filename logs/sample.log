@@ -1,0 +1,40 @@
+2024-01-15 08:15:23 INFO Application started successfully
+2024-01-15 08:15:24 INFO Database connection established
+2024-01-15 08:15:25 INFO Loading configuration from config.yml
+2024-01-15 08:16:12 INFO User 'admin' logged in from 192.168.1.100
+2024-01-15 08:17:45 INFO Processing request: GET /api/users
+2024-01-15 08:17:46 INFO Response sent: 200 OK (125ms)
+2024-01-15 08:18:23 WARN Database query slow: 1250ms
+2024-01-15 08:19:01 INFO Processing request: POST /api/orders
+2024-01-15 08:19:02 ERROR Database connection timeout after 5000ms
+2024-01-15 08:19:03 ERROR Failed to process order: connection lost
+2024-01-15 08:19:10 INFO Attempting database reconnection
+2024-01-15 08:19:11 INFO Database connection re-established
+2024-01-15 08:20:34 INFO Processing request: GET /api/products
+2024-01-15 08:20:35 INFO Response sent: 200 OK (89ms)
+2024-01-15 08:22:15 WARN Memory usage at 85%
+2024-01-15 08:23:45 INFO User 'john_doe' logged in from 192.168.1.105
+2024-01-15 08:24:12 INFO Processing request: DELETE /api/users/123
+2024-01-15 08:24:13 ERROR Permission denied for user 'john_doe'
+2024-01-15 08:25:00 WARN High CPU usage detected: 92%
+2024-01-15 08:26:30 INFO Cache cleared: 2500 entries removed
+2024-01-15 08:27:15 INFO Processing request: GET /api/stats
+2024-01-15 08:27:16 INFO Response sent: 200 OK (45ms)
+2024-01-15 08:28:45 ERROR File not found: /data/report_2024.pdf
+2024-01-15 08:29:12 INFO User 'admin' changed system settings
+2024-01-15 08:30:00 INFO Scheduled backup started
+2024-01-15 08:30:45 INFO Backup completed: 2.3GB in 45s
+2024-01-15 08:31:20 WARN Disk space low: 15% remaining
+2024-01-15 08:32:10 INFO Processing request: PUT /api/settings
+2024-01-15 08:32:11 INFO Response sent: 200 OK (67ms)
+2024-01-15 08:33:50 ERROR Invalid API key provided
+2024-01-15 08:34:15 INFO Rate limit applied to IP 203.0.113.42
+2024-01-15 08:35:00 INFO Processing request: GET /api/health
+2024-01-15 08:35:01 INFO Response sent: 200 OK (12ms)
+2024-01-15 08:36:30 WARN SSL certificate expires in 7 days
+2024-01-15 08:37:15 INFO User 'sarah_connor' logged in from 192.168.1.110
+2024-01-15 08:38:00 INFO Processing request: POST /api/upload
+2024-01-15 08:38:15 ERROR File size exceeds limit: 105MB (max: 100MB)
+2024-01-15 08:39:00 INFO Garbage collection completed: 450MB freed
+2024-01-15 08:40:20 INFO Processing request: GET /api/reports
+2024-01-15 08:40:21 INFO Response sent: 200 OK (234ms)

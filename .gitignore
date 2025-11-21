@@ -39,7 +39,11 @@ wheels/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# LogMaster state
 *.log
+!logs/*.log
+.logmaster_state.pkl
 
 # Data
 data/*.csv
